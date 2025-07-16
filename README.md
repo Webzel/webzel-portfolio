@@ -16,15 +16,16 @@ This site serves as a showcase of my work in web development, including:
 - **Astro**
 - **TypeScript**
 - **Markdown & MDX**
-- **Tailwind CSS**
+- **CSS**
+- **HTML**
 
 ## 📁 Project Structure
 
 The codebase follows standard Astro conventions, with pages in `/src/pages` and components in `/src/components`.
 
-## 🌐 Live Site
+<!-- ## 🌐 Live Site
 
-> [https://yourdomain.com](https://yourdomain.com)
+> [https://yourdomain.com](https://yourdomain.com) -->
 
 ## 📬 Contact
 
