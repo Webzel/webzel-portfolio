@@ -10,39 +10,77 @@ tags:
   - Wordpress Development
 ---
 
-Spectral Energies is an R&D company that provides advanced combustion diagnostics and engineering services. They needed a clean, accessible website that clearly communicated their services, expertise, and government research capabilities.
+##### Spectral Energies Website
 
-I was responsible for wireframing the site’s structure based on early client and stakeholder discussions, then developing the site in WordPress after receiving high-fidelity designs from our in-house design team.
-
-##### 1. Wireframing & Information Architecture
-
-My role began with understanding the client’s goals and the technical nature of their services. Based on early discovery meetings and internal briefs, I created wireframes to establish a clear content hierarchy, call-to-action placement, and page structure. These wireframes served as a blueprint for both the design and development phases, ensuring that key information — like core capabilities, research areas, and government affiliations — was prominently and logically presented.
-
-The goal at this stage was to simplify a complex subject matter and translate it into an intuitive user experience. I paid particular attention to usability and content flow, especially on key pages like the homepage, Capabilities, and About sections.
-
-##### 2. Design Handoff & Collaboration
-
-Once the wireframes were approved, I collaborated with the design team to provide context and guidance on layout priorities, functionality, and user behavior expectations. Our designer used the wireframes as a starting point to develop high-fidelity visuals in Figma, which reflected the brand’s professional and research-oriented identity. I worked closely with them to ensure that the final designs were not only visually strong but also realistic and development-friendly.
-
-##### 3. WordPress Development
-
-I developed the site using a lightweight, flexible WordPress theme that allowed for both performance and content manageability. Key development highlights include:
-
-- Custom page templates for modular sections (team bios, capabilities, contact forms)
-- Mobile responsiveness and accessibility improvements
-- Clean HTML structure with semantic markup for SEO
-- Performance optimization through image compression and minimal plugin use
-
-I also implemented backend flexibility so the client could easily manage updates without needing a developer for every change — especially important for a site that includes team updates and research developments.
+A responsive marketing site built with WordPress for Spectral Energies — a government-funded R&D firm specializing in combustion diagnostics and engineering services.
 
 ---
 
-##### ✅ Outcome
+##### Project Overview
 
-The final website successfully communicates Spectral Energies' capabilities to their government, academic, and industry partners. The structure and design emphasize clarity and professionalism while remaining easy to navigate, even for visitors unfamiliar with technical research.
+Spectral Energies needed a clean, accessible website to clearly communicate their highly technical offerings in research and engineering. The new site helps position them as a professional, trustworthy partner for government and industry clients.
 
-The development process was completed on time and within scope, and the internal team was highly satisfied with the outcome. The client is now able to maintain their content independently thanks to a clean admin experience and flexible content blocks.
+**Live Site**: [https://spectralenergies.com](https://spectralenergies.com)
 
-##### 🌐 See It Live
+---
 
-[🔗 spectralenergies.com](https://spectralenergies.com)
+##### Goals
+
+- Simplify complex subject matter for a broader audience
+- Highlight research capabilities and government affiliations
+- Ensure full mobile responsiveness and accessibility
+- Enable client-controlled content management
+
+---
+
+##### My Role
+
+- **Wireframing & Architecture**: Created page wireframes based on early discovery meetings to prioritize content clarity and user experience
+- **Developer Handoff & Guidance**: Collaborated with the design team to ensure design intent aligned with functional goals
+- **WordPress Development**: Built the final site using a lightweight theme with custom templates and flexible admin controls
+
+---
+
+##### Tech Stack
+
+- **CMS**: WordPress
+- **Theme**: Custom lightweight theme
+- **Languages**: HTML, CSS, PHP
+- **Tools**: Figma (design handoff), image compression tools
+- **Plugins**: Minimal, to preserve speed and flexibility
+
+---
+
+##### Key Features
+
+- Custom page templates for reusable sections
+- Responsive layout across all screen sizes
+- Semantic HTML for accessibility and SEO
+- Admin-friendly backend for easy content updates
+
+---
+
+##### Collaboration
+
+Worked directly with internal stakeholders and the design team to align on goals, review wireframes, and provide development guidance throughout the build. Ensured the final product stayed true to the original vision while maintaining technical feasibility.
+
+---
+
+##### Outcome
+
+- Clear content flow with improved usability
+- Easy-to-manage backend for ongoing updates
+- Completed on time and fully within scope
+- Ongoing use as Spectral Energies' primary marketing site
+
+---
+
+##### Future Opportunities
+
+- Integrate more interactive media (e.g., research visuals, charts)
+- Expand content for academic audiences
+- Add blog functionality for publishing new research
+
+---
+
+> Built with WordPress — focused on clarity, flexibility, and scientific credibility.

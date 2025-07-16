@@ -79,26 +79,32 @@ const projects = (await getCollection('work'))
 				</div>
 			</section>
 
-			<section class="section with-background bg-variant">
+			<section class="steps-section with-background bg-variant">
 				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Mentions</h3>
+					<h3>How I Work</h3>
 					<p>
-						I have been fortunate enough to receive praise for my work in several publications. Take
-						a look below to learn more.
+						I bring structure, clarity, and care to every project — here’s what working together typically looks like:
 					</p>
 				</header>
-
-				<div class="gallery">
-					<Grid variant="small">
-						{
-							['Medium', 'BuzzFeed', 'The Next Web', 'awwwards.', 'TechCrunch'].map((brand) => (
-								<li class="mention-card">
-									<p>{brand}</p>
-								</li>
-							))
-						}
-					</Grid>
-				</div>
+					<div class="work-steps">
+						<div class="work-step-card">
+							<h3>Discovery & Planning</h3>
+							<p>We define goals, target users, and key features. I ask the right questions to ensure we’re building the right thing.</p>
+						</div>
+						<div class="work-step-card">
+							<h3>Design & Prototyping</h3>
+							<p>Wireframes and mockups take shape — using your brand or creating something fresh. Feedback is always welcome.</p>
+						</div>
+						<div class="work-step-card">
+							<h3>Development</h3>
+							<p>I build clean, responsive, and accessible websites using modern tools. Code is organized and built to last.</p>
+						</div>	
+						<div class="work-step-card">
+							<h3>Launch & Beyond</h3>
+							<p>After testing and deployment, I ensure everything runs smoothly. I can stay on for updates or hand it off with docs.</p>
+						</div>
+					</div>
+					 <p class="turnaround"><strong>Typical turnaround:</strong> Most projects are completed in 2–4 weeks, depending on scope.</p>	
 			</section>
 		</main>
 
@@ -230,23 +236,25 @@ const projects = (await getCollection('work'))
 
 	/* ====================================================== */
 
-	.mention-card {
+	.work-steps {
 		display: flex;
-		height: 7rem;
-		justify-content: center;
-		align-items: center;
-		text-align: center;
-		border: 1px solid var(--gray-800);
-		border-radius: 1.5rem;
-		color: var(--gray-300);
-		background: var(--gradient-subtle);
-		box-shadow: var(--shadow-sm);
+		gap: 2rem;
+		margin-top: 4rem;
 	}
 
-	@media (min-width: 50em) {
-		.mention-card {
-			border-radius: 1.5rem;
-			height: 9.5rem;
-		}
-	}
+    .work-steps h3 {
+      margin: 0 0 0.5rem;
+      font-size: 1.5rem;
+    }
+
+    .turnaround {
+      margin-top: 2rem;
+      font-style: italic;
+    }
+
+    @media (max-width: 600px) {
+      .how-i-work {
+        padding: 3rem 1rem;
+      }
+    }
 </style>
