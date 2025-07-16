@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio website — built with [Astro](https://astro.build/)
 
-## 🚀 About This Site
+## About This Site
 
 This site serves as a showcase of my work in web development, including:
 
@@ -11,7 +11,7 @@ This site serves as a showcase of my work in web development, including:
 - Freelance work
 - Experiments and side projects
 
-## 🧰 Tech Stack
+## Tech Stack
 
 - **Astro**
 - **TypeScript**
@@ -19,7 +19,7 @@ This site serves as a showcase of my work in web development, including:
 - **CSS**
 - **HTML**
 
-## 📁 Project Structure
+## Project Structure
 
 The codebase follows standard Astro conventions, with pages in `/src/pages` and components in `/src/components`.
 
