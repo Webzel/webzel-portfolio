@@ -1,7 +1,7 @@
 ---
 title: Spectral Energies
 publishDate: 2020-03-04 00:00:00
-img: /assets/Spectral-Energies-Home-Hero.webp
+img: /webzel-portfolio/assets/Spectral-Energies-Home-Hero.webp
 img_alt: Website landning page with text and an a jet landing on an aircraft carrier
 description: |
   A clean, responsive marketing site for a government-funded R&D company specializing in combustion diagnostics and engineering services.

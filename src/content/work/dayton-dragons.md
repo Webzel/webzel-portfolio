@@ -1,8 +1,8 @@
 ---
 title: Dayton Dragons
 publishDate: 2019-10-02 00:00:00
-img: /assets/dayton-dragons.webp
-img_alt: Soft pink and baby blue water ripples together in a subtle texture.
+img: /webzel-portfolio/assets/dayton-dragons.webp
+img_alt: Dragons landing page hero with family rooting for team
 description: |
   A clean, mobile-friendly landing page built for the Dayton Dragons to drive season ticket interest and family engagement. Designed with performance, clarity, and conversion in mind.
 tags:
