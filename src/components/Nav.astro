@@ -7,8 +7,8 @@ import type { iconPaths } from './IconPaths';
 const base = import.meta.env.BASE_URL;
 const textLinks: { label: string; href: string }[] = [
 	{ label: 'Home', href: base },
-	{ label: 'Work', href: '${base}work/' },
-	{ label: 'About', href: '${base}about/' },
+	{ label: 'Work', href: `${base}work/` },
+	{ label: 'About', href: `${base}about/` },
 ];
 
 /** Icon links to social media — edit these with links to your profiles! */
@@ -20,16 +20,15 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
 
 /** Test if a link is pointing to the current page. */
 const isCurrentPage = (href: string) => {
-	let pathname = Astro.url.pathname.replace(import.meta.env.BASE_URL, '');
-	if (pathname.at(0) !== '/') pathname = '/' + pathname;
-	if (pathname.at(-1) !== '/') pathname += '/';
-	return pathname === href || (href !== '/' && pathname.startsWith(href));
+	const currentPath = Astro.url.pathname; // e.g., "/webzel-portfolio/work/"
+	return currentPath === href || (href !== base && currentPath.startsWith(href));
 };
+
 ---
 
 <nav>
 	<div class="menu-header">
-		<a href="/" class="site-title"><img src={`${import.meta.env.BASE_URL}assets/webzel-logo-light.png`} width="100"></a>
+		<a href={`${import.meta.env.BASE_URL}/`} class="site-title"><img src={`${import.meta.env.BASE_URL}assets/webzel-logo-light.png`} width="100"></a>
 		<menu-button>
 			<template>
 				<button class="menu-button" aria-expanded="false">
