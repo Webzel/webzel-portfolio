@@ -7,6 +7,7 @@ description: |
   A nostalgic, data-driven web app for building your dream Pokémon team — built with Astro, TypeScript, and the PokéAPI.
 tags:
   - Dev
+  - Astro
   - Design
 ---
 
