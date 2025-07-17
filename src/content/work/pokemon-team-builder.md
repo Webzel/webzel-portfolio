@@ -1,7 +1,7 @@
 ---
 title: Pokemon Team Builder
 publishDate: 2019-12-01 00:00:00
-img: /webzel-portfolio/assets/pokemon-team-builder-home.webp
+img: /assets/pokemon-team-builder-home.webp
 img_alt: Cards showing each individual pokemon and information
 description: |
   A nostalgic, data-driven web app for building your dream Pokémon team — built with Astro, TypeScript, and the PokéAPI.

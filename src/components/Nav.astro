@@ -3,11 +3,12 @@ import Icon from './Icon.astro';
 import ThemeToggle from './ThemeToggle.astro';
 import type { iconPaths } from './IconPaths';
 
-/** Main menu items */
+/** Main menu items {`${import.meta.env.BASE_URL}/`} */
+const base = import.meta.env.BASE_URL;
 const textLinks: { label: string; href: string }[] = [
-	{ label: 'Home', href: '/webzel-portfolio/' },
-	{ label: 'Work', href: '/webzel-portfolio/work/' },
-	{ label: 'About', href: '/webzel-portfolio/about/' },
+	{ label: 'Home', href: base },
+	{ label: 'Work', href: '${base}work/' },
+	{ label: 'About', href: '${base}about/' },
 ];
 
 /** Icon links to social media — edit these with links to your profiles! */
@@ -28,7 +29,7 @@ const isCurrentPage = (href: string) => {
 
 <nav>
 	<div class="menu-header">
-		<a href="/" class="site-title"><img src="/webzel-portfolio/assets/webzel-logo-light.png" width="100"></a>
+		<a href="/" class="site-title"><img src={`${import.meta.env.BASE_URL}assets/webzel-logo-light.png`} width="100"></a>
 		<menu-button>
 			<template>
 				<button class="menu-button" aria-expanded="false">

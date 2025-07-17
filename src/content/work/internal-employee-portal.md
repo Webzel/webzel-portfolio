@@ -1,7 +1,7 @@
 ---
 title: Internal Employee Portal
 publishDate: 2020-03-02 00:00:00
-img: /webzel-portfolio/assets/Portal-Login.webp
+img: /assets/Portal-Login.webp
 img_alt: Portal login screen card with button to login
 description: |
   I built an internal employee portal for Catapult Creative, designed to centralize tools, calendars, and documentation.

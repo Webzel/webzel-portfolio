@@ -1,7 +1,7 @@
 ---
 title: Dayton Dragons
 publishDate: 2019-10-02 00:00:00
-img: /webzel-portfolio/assets/dayton-dragons.webp
+img: /assets/dayton-dragons.webp
 img_alt: Dragons landing page hero with family rooting for team
 description: |
   A clean, mobile-friendly landing page built for the Dayton Dragons to drive season ticket interest and family engagement. Designed with performance, clarity, and conversion in mind.
